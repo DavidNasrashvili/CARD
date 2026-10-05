@@ -1,0 +1,22 @@
+body{
+    background-color: lightgray;
+}
+.profession {
+    color: gray;
+    font-size: 35px;
+
+}
+#name {
+    color: darkblue;
+    font-size: 70px;
+}
+.card{
+    color: aqua;
+    background-color: azure;
+    font-size: 15px;
+    font-weight: 500px;
+    text-align: center;    
+}
+button:hover{
+    background-color:blueviolet;
+}
