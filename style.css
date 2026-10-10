@@ -1,22 +1,23 @@
 body{
-    background-color: lightgray;
+    padding: 0;
+    box-sizing: border-box;
 }
-.profession {
-    color: gray;
-    font-size: 35px;
+.parent{
+display: flex;
+flex-direction: row;
+gap: 10px;
+width: 60%;
+margin: 0 auto;
+border: 1px solid black;
+margin-top: 40px;
+justify-content: center;
+align-items: center;
+
+
+
 
 }
-#name {
-    color: darkblue;
-    font-size: 70px;
-}
-.card{
-    color: aqua;
-    background-color: azure;
-    font-size: 15px;
-    font-weight: 500px;
-    text-align: center;    
-}
-button:hover{
-    background-color:blueviolet;
+.child{
+    background-color: aqua;
+    border: 1px solid black;
 }
